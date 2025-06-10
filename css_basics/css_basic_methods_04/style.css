@@ -8,3 +8,4 @@ height: auto;
 .avatar.distorted{
 width: var(--width_distort);
 height:calc(var(--width_distort) * 2);
+}
