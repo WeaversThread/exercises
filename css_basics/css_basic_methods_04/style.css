@@ -1,0 +1,10 @@
+.avatar.proportioned {
+width: 300px;
+height: auto;
+}
+:root{
+--width_distort: 200px;
+}
+.avatar.distorted{
+width: var(--width_distort);
+height:calc(var(--width_distort) * 2);
